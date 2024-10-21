@@ -1,39 +1,45 @@
 {
-    "name": "orchestra/avatar",
-    "description": "Avatar Component for Orchestra Platform",
-    "keywords": ["orchestra-platform", "orchestral", "laravel", "avatar", "gravatar"],
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Mior Muhammad Zaki",
-            "email": "crynobone@gmail.com",
-            "homepage": "https://github.com/crynobone"
-        }
-    ],
-    "autoload": {
-        "psr-4": {
-            "Orchestra\\Avatar\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Orchestra\\Avatar\\Tests\\": "tests/"
-        }
-    },
-    "require": {
-        "php": "^7.3 || ^8.0",
-        "orchestra/support": "^6.0"
-    },
-    "require-dev": {
-        "orchestra/testbench": "^6.17"
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "7.0-dev"
-        }
-    },
-    "config": {
-        "sort-packages": true
-    },
-    "minimum-stability": "dev"
+  "name": "orchestra/avatar",
+  "description": "Avatar Component for Orchestra Platform",
+  "keywords": [
+    "orchestra-platform",
+    "orchestral",
+    "laravel",
+    "avatar",
+    "gravatar"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mior Muhammad Zaki",
+      "email": "crynobone@gmail.com",
+      "homepage": "https://github.com/crynobone"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Orchestra\\Avatar\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Orchestra\\Avatar\\Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "php": "^8.0",
+    "orchestra/support": "^7.0"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^7.0"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "7.0-dev"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev"
 }
